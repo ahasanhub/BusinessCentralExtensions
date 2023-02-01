@@ -16,7 +16,11 @@ Get-NAVServerConfiguration -KeyName DeveloperServicesEnabled
 ```sh
 Get-NAVServerConfiguration
 ```
-5. Setup web client base url
+5. Setup PublicWebBaseUrl in NavServerConfiguration while publish extension in Dynamics 365 Business Central
 ```sh
-Set-NAVWebServerInstanceConfiguration -WebServerInstance BC210 -KeyName BaseUrl -KeyValue "http://localhost:8080/BC210/"
+Set-NAVServerConfiguration -KeyName PublicWebBaseUrl -KeyValue "http://localhost:8080/BC210/"
+```
+6. Then again Restart NAV Server instance
+```sh
+Restart-NAVServerInstance
 ```
