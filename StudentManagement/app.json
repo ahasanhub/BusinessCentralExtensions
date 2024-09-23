@@ -1,0 +1,32 @@
+{
+  "id": "73944848-f3a6-40fa-bb74-e3f3b2ecdfda",
+  "name": "StudentManagement",
+  "publisher": "ContextIdea",
+  "version": "1.0.0.0",
+  "brief": "Sample Student Management System",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
